@@ -70,3 +70,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "lockbox", "~> 1.1"
+
+gem "blind_index", "~> 2.3"
