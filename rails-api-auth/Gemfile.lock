@@ -68,11 +68,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
-    argon2-kdf (0.1.7)
     bindex (0.8.1)
-    blind_index (2.3.1)
-      activesupport (>= 5.2)
-      argon2-kdf (>= 0.1.1)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
     builder (3.2.4)
@@ -105,7 +101,6 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    lockbox (1.1.1)
     loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -216,13 +211,11 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  blind_index (~> 2.3)
   bootsnap
   capybara
   debug
   importmap-rails
   jbuilder
-  lockbox (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.2)
   selenium-webdriver
