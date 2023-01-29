@@ -1,4 +1,7 @@
 class AuthenticationController < ApplicationController
+    require_relative '../../lib/json_web_token.rb'
+    include JsonWebToken
+    
     before_action :authorize_request, except: :login
 
     # POST /auth/login
