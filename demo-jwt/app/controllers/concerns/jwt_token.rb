@@ -1,6 +1,6 @@
 require "jwt"
 
-module JwToken
+module JwtToken
 
     extend ActiveSupport::Concern
     SECRET_KEY = Rails.application.secrets.secret_keybase. to_s
